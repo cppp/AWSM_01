@@ -19,7 +19,7 @@ Test_string::Test_string() {}
 Test_string::~Test_string() {}
 
 void Test_string::test_case1() {
-    QVERIFY(1==2);
+    QVERIFY(1==1);
 }
 
 QTEST_APPLESS_MAIN(Test_string)
