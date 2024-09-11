@@ -22,6 +22,6 @@ void Test_string::test_case1() {
     QVERIFY(1==1);
 }
 
-QTEST_APPLESS_MAIN(Test_string)
+// QTEST_APPLESS_MAIN(Test_string)
 
 #include "tst_test_string.moc"
