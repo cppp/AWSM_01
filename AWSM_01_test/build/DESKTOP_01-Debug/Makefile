@@ -238,6 +238,8 @@ Makefile: ../../AWSM_01_test.pro C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/win3
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/qt.prf \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/resources.prf \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/moc.prf \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/win32/opengl.prf \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/uic.prf \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/testlib_defines.prf \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/qml_debug.prf \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/precompile_header.prf \
@@ -249,6 +251,8 @@ Makefile: ../../AWSM_01_test.pro C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/win3
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/lex.prf \
 		../../AWSM_01_test.pro \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Test.prl \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Widgets.prl \
+		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Gui.prl \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Core.prl
 	$(QMAKE) -o Makefile ..\..\AWSM_01_test.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/spec_pre.prf:
@@ -426,6 +430,8 @@ C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/win32/console.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/qt.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/resources.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/moc.prf:
+C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/win32/opengl.prf:
+C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/uic.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/testlib_defines.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/qml_debug.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/precompile_header.prf:
@@ -437,6 +443,8 @@ C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/yacc.prf:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/mkspecs/features/lex.prf:
 ../../AWSM_01_test.pro:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Test.prl:
+C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Widgets.prl:
+C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Gui.prl:
 C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\AWSM_01_test.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"

@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+// #include "calulator.cpp"
 #include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
