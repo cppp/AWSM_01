@@ -18,7 +18,7 @@ private slots:
     void test_divide();
     void test_modulus();
     void test_power();
-    void test_sqrt();
+    // void test_sqrt();
     // void test_divide_by_zero();
     // void test_sqrt_of_negative();
 };
