@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 14.0.1, 2024-09-11T12:56:22. -->
+<!-- Written by QtCreator 14.0.1, 2024-09-14T12:12:29. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -71,7 +71,10 @@
    </valuemap>
    <value type="bool" key="AutoTest.ApplyFilter">false</value>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="1@:Qt Test">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/mohammadreza/Documents/AWSM_01/AWSM_01_test/tst_test_calc.cpp:Test_calc">Unchecked</value>
     <value type="Qt::CheckState" key="1@C:/Users/mohammadreza/Documents/AWSM_01/AWSM_01_test/tst_test_calc.cpp:test_add">Unchecked</value>
+    <value type="Qt::CheckState" key="1@C:/Users/mohammadreza/Documents/AWSM_01/AWSM_01_test/tst_test_string.cpp:Test_string">Unchecked</value>
     <value type="Qt::CheckState" key="1@C:/Users/mohammadreza/Documents/AWSM_01/AWSM_01_test/tst_test_string.cpp:test_case1">Unchecked</value>
    </valuemap>
    <valuelist type="QVariantList" key="AutoTest.PathFilters"/>

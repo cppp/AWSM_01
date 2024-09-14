@@ -1,27 +1,27 @@
-#include <QtTest>
+// #include <QtTest>
 
-// add necessary includes here
+// // add necessary includes here
 
-class Test_string : public QObject
-{
-    Q_OBJECT
+// class Test_string : public QObject
+// {
+//     Q_OBJECT
 
-public:
-    Test_string();
-    ~Test_string();
+// public:
+//     Test_string();
+//     ~Test_string();
 
-private slots:
-    void test_case1();
-};
+// private slots:
+//     void test_case1();
+// };
 
-Test_string::Test_string() {}
+// Test_string::Test_string() {}
 
-Test_string::~Test_string() {}
+// Test_string::~Test_string() {}
 
-void Test_string::test_case1() {
-    QVERIFY(1==1);
-}
+// void Test_string::test_case1() {
+//     QVERIFY(1==1);
+// }
 
-// QTEST_APPLESS_MAIN(Test_string)
+// // QTEST_APPLESS_MAIN(Test_string)
 
-#include "tst_test_string.moc"
+// #include "tst_test_string.moc"
