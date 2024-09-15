@@ -1,26 +1,21 @@
-#include <QtTest>
-#include "tst_a.h"
-#include "tst_b.h"
+// #include <QTest>
+// #include "tst_test_calc.cpp"
+// #include "tst_test_string.cpp"
 
-int main(int argc, char *argv[]) {
-    QCoreApplication app(argc, argv);
+// int main(int argc, char *argv[]) {
+//     int status = 0;
 
-    A aTest;
-    B bTest;
+//     // Run Test_calc
+//     {
+//         Test_calc test;
+//         QTest::qExec(&test, argc, argv);
+//     }
 
-    if (argc == 1) {
-        // Run both tests normally with default output
-        QTest::qExec(&aTest, argc, argv);
-        QTest::qExec(&bTest, argc, argv);
-    } else {
-        // If arguments are provided, handle XML output for each test separately
-        const char *argvA[] = {argv[0], "-xml", "-o", "test_results_a.xml"};
-        QTest::qExec(&aTest, 4, const_cast<char**>(argvA));
+//     // Run Test_string
+//     {
+//         Test_string test;
+//         QTest::qExec(&test, argc, argv);
+//     }
 
-        // Custom arguments for B's XML output
-        const char *argvB[] = {argv[0], "-xml", "-o", "test_results_b.xml"};
-        QTest::qExec(&bTest, 4, const_cast<char**>(argvB));
-    }
-
-    return 0;
-}
+//     return status;
+// }
